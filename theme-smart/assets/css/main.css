@@ -283,7 +283,7 @@ kbd .cmd {
 
 .apidocs .args {
     display: inline;
-    margin: 0 0.5em;
+/*     margin: 0 0.5em; */
 }
 .apidocs .flag.chainable {
     background: #46ca3b;
