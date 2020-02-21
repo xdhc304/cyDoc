@@ -268,7 +268,7 @@ kbd .cmd {
 }
 .apidocs .index-item {
     white-space: nowrap;
-    display: inline-block;
+    display: block;
     margin:3px 10px;
 }
 .apidocs .index-item .flag {
