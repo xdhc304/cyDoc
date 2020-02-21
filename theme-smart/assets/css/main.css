@@ -188,23 +188,27 @@ div.filterAPi {
     color: #666;
 }
 /* Generic inline list. */
-
+.func, code {
+    display: flex;
+}
 .apidocs ul.inline {
-    display: inline;
+    display: inline-flex;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 .apidocs ul.inline li {
-    display: inline;
+    display: inline-flex;
 }
 /* Comma-separated list. */
 
 .apidocs ul.commas li:after {
     content: ',';
+    margin-right: 6px;
 }
 .apidocs ul.commas li:last-child:after {
     content: '';
+    margin-right: 0;
 }
 /* Keyboard shortcuts. */
 
@@ -283,7 +287,7 @@ kbd .cmd {
 
 .apidocs .args {
     display: inline;
-/*     margin: 0 0.5em; */
+    /* margin: 0 0.5em; */
 }
 .apidocs .flag.chainable {
     background: #46ca3b;
@@ -331,7 +335,7 @@ kbd .cmd {
 }
 .apidocs .item .type, .apidocs .returns-inline {
     font-size: 11px;
-    margin: 0 0 0 5px;
+    margin: 3px 0 0 5px;
 }
 .apidocs .item .type a {
     border-bottom: 1px dotted #afafaf;
