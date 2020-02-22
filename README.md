@@ -9,25 +9,6 @@ yyDoc
 
 license : BSD
 
-0.1.1 特性 
---------------------
-    * 加入@demo配置项，看可以动态抓取html和js的内容作为@example，同时支持扩展@demo读取
-    * 支持jasmine测试js文件的单元代码抓取为@example
-    * 实现多个example显示和tab切换
-    * 加入@show配置项来控制直接显示example效果
-    * 主题改版
-    * 去除@attribute属性设置，统一使用@property
-
-0.1.0 特性 
---------------------
-    * 基于Bootstrp3构建，排版和样式美化
-    * 支持html和js的Demo生成,与查看
-    * 提供在线的demo编辑页面（类似于jsfiddler）
-    * 同步jasmine的expect接口，使得单元测试与example的代码能够复用
-    * 可以配置化增强 - 项目信息配置；Document页面导航配置；demo依赖库配置
-    * 提供全局api查询和导航过滤功能，筛选更加便利
-    * 提供grunt插件 - grunt-contrib-smartdoc
-
 使用
 --------------------
 在目录中加入docConfig.js文件
