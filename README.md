@@ -1,4 +1,4 @@
-cyDoc
+yyDoc
 ======================
 
 基于YUIDoc和smartDoc构建的Javascipt文档生成器。 
@@ -26,14 +26,14 @@ license : BSD
     * 同步jasmine的expect接口，使得单元测试与example的代码能够复用
     * 可以配置化增强 - 项目信息配置；Document页面导航配置；demo依赖库配置
     * 提供全局api查询和导航过滤功能，筛选更加便利
-    * 提供grunt插件 - grunt-contrib-cyDoc
+    * 提供grunt插件 - grunt-contrib-smartdoc
 
 使用
 --------------------
 在目录中加入docConfig.js文件
 
-    npm install -g cydoc
-    cydoc
+    npm install -g yydoc
+    yydoc
 
 
 docConfig配置项说明
@@ -53,28 +53,28 @@ docConfig配置项说明
         project: {
 
             //项目名称
-            name: 'cyDoc',
+            name: 'yyDoc',
 
             //项目描述，可以配置html，会生成到document主页
-            description: '<h2>cyDoc</h2> <p>Javascript Document builder base on YUIDoc.</p>',
+            description: '<h2>yyDoc</h2> <p>Javascript Document builder base on YUIDoc.</p>',
 
             //版本信息
             version: '1.1.0',
 
             //地址信息
-            url: 'https://github.com/xdhc304/cyDoc',
+            url: 'https://github.com/xdhc304/yyDoc',
             //logo地址
             // logo : '',
             //导航信息
             navs: [{
                 name: "Home",
-                url: "https://github.com/xdhc304/cyDoc"
+                url: "https://github.com/xdhc304/yyDoc"
             }, {
                 name: "Document",
                 url: ""
             }, {
                 name: "About",
-                url: "https://github.com/xdhc304/cyDoc"
+                url: "https://github.com/xdhc304/yyDoc"
             }]
         },
 

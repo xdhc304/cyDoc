@@ -29,7 +29,7 @@ exports.build = function(config, callback) {
         var json;
 
         if (!options) {
-            console.log('The Options of cyDoc is not be defined!');
+            console.log('The Options of yyDoc is not be defined!');
             return;
         }
 
@@ -76,7 +76,7 @@ exports.build = function(config, callback) {
         var builder = new Y.DocBuilder(options, json);
 
         var starttime = Date.now();
-        console.log('Start cyDoc compile...');
+        console.log('Start yyDoc compile...');
         console.log('Scanning: ' + options.paths);
         console.log('Output: ' + options.outdir);
 
@@ -85,7 +85,7 @@ exports.build = function(config, callback) {
 
             builder.writeDemo(function() {
                 callback && callback();
-                console.log('cyDoc compile completed in ' + ((Date.now() - starttime) / 1000) + ' seconds');
+                console.log('yyDoc compile completed in ' + ((Date.now() - starttime) / 1000) + ' seconds');
             });
         });
     }

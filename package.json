@@ -1,9 +1,9 @@
 {
-    "name": "cydoc",
+    "name": "yydoc",
     "version": "1.0.0",
     "description": "Javascript Document & Demo builder (base on YUIDoc, bootstrap 3 and smartDoc).",
-    "homepage": "https://github.com/xdhc304/cyDoc",
-    "main": "cyDoc.js",
+    "homepage": "https://github.com/xdhc304/yyDoc",
+    "main": "yyDoc.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -13,7 +13,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/xdhc304/cyDoc.git"
+        "url": "https://github.com/xdhc304/yyDoc.git"
     },
     "license": "BSD",
     "dependencies": {
@@ -24,6 +24,6 @@
         "jshint": "2.4.x"
     },
     "bin": {
-        "cyDoc": "./bin/cyDoc"
+        "yyDoc": "./bin/yyDoc"
     }
 }

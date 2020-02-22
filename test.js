@@ -1,3 +1,3 @@
-var cyDoc = require('./cyDoc.js');
+var yyDoc = require('./yyDoc.js');
 
-cyDoc.build();
+yyDoc.build();
