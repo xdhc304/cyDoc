@@ -1,22 +1,19 @@
 {
-    "name": "smartdoc",
-    "version": "0.1.1",
-    "description": "Javascript Document & Demo builder (base on YUIDoc and bootstrap 3).",
-    "homepage": "https://github.com/zhh77/smartDoc",
-    "main": "smartDoc.js",
+    "name": "cydoc",
+    "version": "1.0.0",
+    "description": "Javascript Document & Demo builder (base on YUIDoc, bootstrap 3 and smartDoc).",
+    "homepage": "https://github.com/xdhc304/cyDoc",
+    "main": "cyDoc.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": {
-        "name": "Roy Zhang",
-        "email": "zhh77_1999@163.com"
+        "name": "xdhc304",
+        "email": "1171286725@qq.com"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/zhh77/smartDoc.git"
-    },
-    "bugs": {
-        "url": "https://github.com/zhh77/smartDoc/issues"
+        "url": "https://github.com/xdhc304/cyDoc.git"
     },
     "license": "BSD",
     "dependencies": {
@@ -26,7 +23,7 @@
     "devDependencies": {
         "jshint": "2.4.x"
     },
-    "bin" : {
-        "smartDoc": "./bin/smartDoc"
+    "bin": {
+        "cyDoc": "./bin/cyDoc"
     }
 }

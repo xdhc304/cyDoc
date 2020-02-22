@@ -12,27 +12,27 @@ module.exports = {
     project: {
 
         //项目名称
-        name: 'SmartDoc',
+        name: 'cyDoc',
 
         //项目描述，可以配置html，会生成到document主页
-       // description: '<h2>SmartDoc</h2> <p>Javascript Document builder base on YUIDoc.</p>',
+       // description: '<h2>cyDoc</h2> <p>Javascript Document builder base on YUIDoc.</p>',
 
         //版本信息
         version: '1.1.0',
 
         //地址信息
-        url: 'https://github.com/zhh77/smartdoc',
+        url: 'https://github.com/xdhc304/cyDoc',
 
         //导航信息
         navs: [{
             name: "Home",
-            url: "https://github.com/zhh77/smartdoc"
+            url: "https://github.com/xdhc304/cyDoc"
         }, {
             name: "Document",
             url: "/"
         }, {
             name: "About",
-            url: "https://github.com/zhh77/smartdoc"
+            url: "https://github.com/xdhc304/cyDoc"
         }]
     },
     //demo页面需要加载的js库

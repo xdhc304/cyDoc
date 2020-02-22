@@ -1,33 +1,31 @@
 <div id="method_{{name}}" class="method item{{#if access}} {{access}}{{/if}}{{#if deprecated}} deprecated{{/if}}{{#if extended_from}} inherited{{/if}}">
     <h3 class="name">{{name}}</h3>
-    <div class="func">
-        <code>
-        {{name}}
-        {{#if params}}
-            <div class="args">
-                <span class="paren">(</span><ul class="args-list inline commas">
-                {{#params}}
-                    <li class="arg">
-                        {{#if optional}}
-                            [{{name}}{{#if optdefault}}={{optdefault}}{{/if}}]
-                        {{else}}
-                            {{name}}
-                        {{/if}}
-                    </li>
-                {{/params}}
-                </ul><span class="paren">)</span>
-            </div>
-        {{else}}
-            <span class="paren">()</span>
-        {{/if}}
-        </code>
+    <code>
+    {{name}}
+    {{#if params}}
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+            {{#params}}
+                <li class="arg">
+                    {{#if optional}}
+                        [{{name}}{{#if optdefault}}={{optdefault}}{{/if}}]
+                    {{else}}
+                        {{name}}
+                    {{/if}}
+                </li>
+            {{/params}}
+            </ul><span class="paren">)</span>
+        </div>
+    {{else}}
+        <span class="paren">()</span>
+    {{/if}}
+    </code>
 
-        {{#if return}}
-            <span class="returns-inline">
-                <span class="type">{{#crossLink returnType}}{{/crossLink}}</span>
-            </span>
-        {{/if}}
-    </div>
+    {{#if return}}
+        <span class="returns-inline">
+            <span class="type">{{#crossLink returnType}}{{/crossLink}}</span>
+        </span>
+    {{/if}}
 
     {{#if deprecated}}
         <span class="flag deprecated"{{#if deprecationMessage}} title="{{deprecationMessage}}"{{/if}}>deprecated</span>

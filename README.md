@@ -1,9 +1,9 @@
-SmartDoc
+cyDoc
 ======================
 
-基于YUIDoc构建的Javascipt文档生成器。 
+基于YUIDoc和smartDoc构建的Javascipt文档生成器。 
 
-详细介绍见我的博客: [JS文档和Demo自动化生成工具 - SmartDoc](http://www.cnblogs.com/zhh8077/p/4010991.html)和[注释编写说明](http://www.cnblogs.com/zhh8077/p/4011769.html)
+详细介绍: [JS文档和Demo自动化生成工具 - SmartDoc](http://www.cnblogs.com/zhh8077/p/4010991.html)和[注释编写说明](http://www.cnblogs.com/zhh8077/p/4011769.html)
 
 [生成示例地址](http://zhh77.github.io/smartDoc/)
 
@@ -26,14 +26,14 @@ license : BSD
     * 同步jasmine的expect接口，使得单元测试与example的代码能够复用
     * 可以配置化增强 - 项目信息配置；Document页面导航配置；demo依赖库配置
     * 提供全局api查询和导航过滤功能，筛选更加便利
-    * 提供grunt插件 - grunt-contrib-smartdoc
+    * 提供grunt插件 - grunt-contrib-cyDoc
 
 使用
 --------------------
 在目录中加入docConfig.js文件
 
-    npm install -g smartdoc
-    smartdoc
+    npm install -g cydoc
+    cydoc
 
 
 docConfig配置项说明
@@ -53,28 +53,28 @@ docConfig配置项说明
         project: {
 
             //项目名称
-            name: 'SmartDoc',
+            name: 'cyDoc',
 
             //项目描述，可以配置html，会生成到document主页
-            description: '<h2>SmartDoc</h2> <p>Javascript Document builder base on YUIDoc.</p>',
+            description: '<h2>cyDoc</h2> <p>Javascript Document builder base on YUIDoc.</p>',
 
             //版本信息
             version: '1.1.0',
 
             //地址信息
-            url: 'https://github.com/zhh77/smartjs',
+            url: 'https://github.com/xdhc304/cyDoc',
             //logo地址
-            logo : 'https://github.com/zhh77/logo.png',
+            // logo : '',
             //导航信息
             navs: [{
                 name: "Home",
-                url: "https://github.com/zhh77/smartjs"
+                url: "https://github.com/xdhc304/cyDoc"
             }, {
                 name: "Document",
                 url: ""
             }, {
                 name: "About",
-                url: "https://github.com/zhh77/smartjs"
+                url: "https://github.com/xdhc304/cyDoc"
             }]
         },
 

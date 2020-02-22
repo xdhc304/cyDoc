@@ -1,3 +1,3 @@
-var smartDoc = require('./smartDoc.js');
+var cyDoc = require('./cyDoc.js');
 
-smartDoc.build();
+cyDoc.build();

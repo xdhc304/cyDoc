@@ -4,6 +4,12 @@ body.yui3-smart {
 }
 body.yui3-smart .mainlogo {
     padding: 8px 15px;
+    display: flex;
+    align-items: center;
+}
+body.yui3-smart .mainlogo img {
+    height: 100%;
+    margin-right: 10px;
 }
 div.filterAPi {
     margin-right: 0 !important;
@@ -57,6 +63,13 @@ div.filterAPi {
     width:249px;
     margin-top:10px;
 }
+#sidebar_list dt a {
+    display: inline-block;
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
 #sidebar {
     position: fixed;
     top: 50px;
@@ -71,6 +84,7 @@ div.filterAPi {
     cursor: pointer;
     color: #2a6496;
     padding: 0 1px;
+    top: -4px;
 }
 #sidebar .glyphicon:hover {
     font-size: 14px;
@@ -188,8 +202,8 @@ div.filterAPi {
     color: #666;
 }
 /* Generic inline list. */
-.func, code {
-    display: flex;
+code {
+    display: inline-flex;
 }
 .apidocs ul.inline {
     display: inline-flex;
@@ -274,6 +288,9 @@ kbd .cmd {
     white-space: nowrap;
     display: block;
     margin:3px 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .apidocs .index-item .flag {
     background: none;
