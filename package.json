@@ -1,6 +1,6 @@
 {
     "name": "yydoc",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "Javascript Document & Demo builder (base on YUIDoc, bootstrap 3 and smartDoc).",
     "homepage": "https://github.com/xdhc304/yyDoc",
     "main": "yyDoc.js",
