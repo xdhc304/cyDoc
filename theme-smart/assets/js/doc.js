@@ -1,6 +1,18 @@
 /* global $:true */
 $(function() {
     'use strict';
+    let tab = document.querySelector('#itemTab')
+    let scrollTop = sessionStorage.scrollTop
+    if (scrollTop != 0 && tab) {
+      let content = document.querySelector('.tab-content')
+      tab.children[0].classList.remove('active')
+      tab.children[1].classList.add('active')
+      content.children[0].classList.remove('active')
+      content.children[1].classList.add('active')
+      document.body.scrollTop = scrollTop
+      sessionStorage.removeItem('scrollTop')
+    }
+
     var _assetsPath = $(document.body).attr("_assetsPath");
 
     //nav init

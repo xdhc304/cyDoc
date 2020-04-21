@@ -115,7 +115,7 @@
 
 <div>
     <ul id="itemTab" class="nav nav-tabs">
-        <li class="active"><a data-toggle="tab" href="#class">Detail</a></li>
+        <li class="active" onclick="sessionStorage.removeItem('scrollTop')"><a data-toggle="tab" href="#class">Detail</a></li>
         {{#if methods}}
             <li><a data-toggle="tab" href="#method">Methods</a></li>
         {{/if}}
