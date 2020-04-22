@@ -12,6 +12,13 @@ $(function() {
       document.body.scrollTop = scrollTop
       sessionStorage.removeItem('scrollTop')
     }
+    let menuTop = sessionStorage.menuTop
+    if (menuTop) {
+      setTimeout(() => {
+        document.querySelector('#sidebar_list').scrollTop = menuTop
+        sessionStorage.removeItem('menuTop')
+      }, 0);
+    }
 
     var _assetsPath = $(document.body).attr("_assetsPath");
 

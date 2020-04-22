@@ -12,14 +12,14 @@
                 <dd>
                     <ul>
                    {{#classes}}
-                       <li>
+                       <li onclick="sessionStorage.menuTop=document.querySelector('#sidebar_list').scrollTop">
                             {{#if classitems}}
                             <span class="glyphicon glyphicon-plus"></span>
                             {{/if}}
                            <a href="{{../../projectRoot}}classes/{{name}}.html">{{name}}</a>
                            <ul>
                                 {{#classitems}}
-                                <li>
+                                <li onclick="sessionStorage.menuTop=document.querySelector('#sidebar_list').scrollTop">
                                     <a href="{{../../projectRoot}}classes/{{name}}.html#{{name}}">{{name}}</a>
                                 </li>
                                 {{/classitems}}
