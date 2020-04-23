@@ -16,7 +16,7 @@ $(function() {
     if (menuTop) {
       setTimeout(() => {
         document.querySelector('#sidebar_list').scrollTop = menuTop
-        sessionStorage.removeItem('menuTop')
+        // sessionStorage.removeItem('menuTop')
       }, 0);
     }
 
